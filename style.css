@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outline {
+    height: 80%;
+    width: 85%;
+    /* background-color: aqua; */
+    border-radius: 2rem;
+    border: 1px solid #F5F5F5;
+    background-image: url("Assets/Login/Food.avif");
+    background-position: center; 
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+
+.login-outline {
+    height: 85%;
+    width: 45%;
+    border-radius: 2rem;
+    /* background-color: aquamarine; */
+    border: 1px solid #F5F5F5;
+    padding: 1rem;
+}
+
+.header {
+    height: 20%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 1rem;
+    gap: 0.5rem;
+    padding-left: 1.4rem;
+}
+
+.header h3 {
+    font-size: 2.4rem;
+    color: #F5F5F5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header p {
+    font-size: 1.4rem;
+    color: #F5F5F5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.form {
+    height: 75%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.input {
+    height: 50%;
+    width: 100%;
+    background-color: bisque;
+    margin-top: 1rem;
+}
+
+.form-bottom {
+    height: 15%;
+    width: 100%;
+    background-color: chartreuse;
+}
+
+.but {
+    height: 20%;
+    width: 100%;
+    background-color: limegreen;
+}
+
+.signup {
+    height: 14%;
+    width: 100%;
+    background-color: palevioletred;
+}
