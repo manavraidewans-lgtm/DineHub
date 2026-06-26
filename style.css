@@ -61,34 +61,47 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-.form {
-    height: 75%;
+form {
+    height: 80%;
     width: 100%;
-    background-color: aquamarine;
+    background-color: antiquewhite;
 }
 
-.input {
-    height: 50%;
+.email {
+    height: 25%;
     width: 100%;
-    background-color: bisque;
-    margin-top: 1rem;
+    background-color: aqua;
 }
 
-.form-bottom {
+.pass {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(75, 93, 93);
+}
+
+.two-option {
     height: 15%;
     width: 100%;
-    background-color: chartreuse;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .but {
     height: 20%;
     width: 100%;
-    background-color: limegreen;
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.signup {
-    height: 14%;
+.sign {
+    height: 10%;
     width: 100%;
-    background-color: palevioletred;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
