@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    
 }
 
 .flex {
@@ -10,22 +9,126 @@
     align-items: center;
 }
 
+body {
+    background-color: black;
+}
+
+
 .header {
     height: 80vh;
     width: 100vw;
-    background-color: aqua;
+    background-image: url(../Assets/SignUp/Logo.avif);
     position: relative;
 }
 
+
+
+
+
+
+
 .nav-bar {
     position: absolute;
-    height: 15vh;
-    width: 95vw;
-    background-color: beige;
+    height: 12vh;
+    width: 80vw;
     top: 1.5rem;
-    left: 2rem;
-    right: 2rem;
+    left:8rem;
+    right: 8rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border: 1px solid #F5F5F5;
+    border-radius: 52px;
+    background: transparent;
+    backdrop-filter: blur(8.5px);
 }
+
+
+
+
+
+.nav-logo {
+    height: 100%;
+    width: 20%;
+    /* background-color: black; */
+}
+
+.nav-logo img {
+    height: 80%;
+    width: 80%;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+.nav-options {
+    height: 100%;
+    width: 40%;
+    /* background-color: lightslategray; */
+}
+
+.nav-options ul {
+    gap: 2.9rem;
+}
+
+.nav-options ul li {
+    list-style: none;
+}
+
+.nav-options ul li a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 1.1rem;
+}
+
+
+
+
+.nav-icons {
+    height: 100%;
+    width: 30%;
+    /* background-color: olivedrab; */
+}
+
+.nav-icons .icons {
+    height: 100%;
+    width: 60%;
+    /* background-color: brown; */
+    gap: 2.5rem;
+}
+
+.nav-icons .icons i {
+    font-size: 1.2rem;
+    color: #F5F5F5;
+}
+
+
+
+
+
+.nav-icons .theme-toggle {
+    height: 100%;
+    width: 40%;
+    /* background-color: blueviolet; */
+}
+
+.nav-icons .theme-toggle button {
+    font-size: 1.1rem;
+    color: #F5F5F5;
+    background-color: #FF9F1C;
+    padding: 0.5rem;
+    border: 1px solid #F5F5F5;
+    border-radius: 40px;
+}
+
+
+
+
 
 .head-content {
     position: absolute;
@@ -38,10 +141,10 @@
 
 .bottom {
     position: absolute;
-    height: 20vh;
+    height: 15vh;
     width: 95vw;
     background-color: brown;
-    bottom: -7rem;
+    bottom: -4rem;
     left: 2rem;
     right: 2rem;
 }
