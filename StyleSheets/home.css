@@ -857,16 +857,30 @@ body {
     height: 85%;
     width: 45%;
     background-color: violet;
+    border-radius: 10px;
 }
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
 
 .find-content {
     height: 85%;
     width: 20%;
     background-color: darkorange;
+    border-radius: 10px;
 }
 
 .find-photo {
     height: 85%;
     width: 25%;
     background-color: deepskyblue;
+    background-image: url(../Assets/Home/DineHub.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
