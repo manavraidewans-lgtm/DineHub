@@ -833,3 +833,40 @@ body {
     background-size: cover;
 }
 
+
+
+
+
+
+
+
+
+.find-us-outer {
+    margin-top: 2rem;
+    height: 45vh;
+    width: 95%;
+    margin-left: 2rem;
+    background-color: lawngreen;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map {
+    height: 85%;
+    width: 45%;
+    background-color: violet;
+}
+
+.find-content {
+    height: 85%;
+    width: 20%;
+    background-color: darkorange;
+}
+
+.find-photo {
+    height: 85%;
+    width: 25%;
+    background-color: deepskyblue;
+}
