@@ -642,3 +642,63 @@ body {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.offer-2 {
+    height: 22vh;
+    width: 85vw;
+    /* background-color: antiquewhite; */
+    margin-top: 4rem;
+    margin-left: 7rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    background-image: url(../Assets/Home/offer.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #474545;
+    border-radius: 10px;
+}
+
+.offer-content {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    gap: 0.5rem;
+}
+
+.offer-content h3 {
+    color: #F5F5F5;
+    font-size: 1.6rem;
+}
+
+.offer-content p {
+    color: #F5F5F5;
+    font-size: 1.3rem;
+}
+
+.offer-content span {
+    color: #FF9F1C;
+}
+
+.offer-content button {
+    margin-top: 0.5rem;
+    background-color: #FF9F1C;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+}
