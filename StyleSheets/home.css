@@ -376,3 +376,29 @@ body {
 .line-right {
     background: linear-gradient(to right, #f5a623, transparent);
 }
+
+.today-knife {
+    margin-top: 1rem;
+    height: 4%;
+    width: 100%;
+    /* background-color: rgb(20, 20, 19); */
+}
+
+.today-knife img {
+    height: 4.2rem;
+    width: 4.2rem;
+}
+
+.today-knife .line {
+  height: 1px;
+  width: 105px; 
+  /* background: #f5a623; */
+}
+
+
+.todays-content {
+    margin-top: 1rem;
+    height: 40%;
+    width: 100%;
+    background-color: aquamarine;
+}
