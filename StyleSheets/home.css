@@ -257,7 +257,7 @@ body {
     height: 15vh;
     width: 82vw;
     background-color: #0d0d0d;
-    bottom: 0;
+    bottom: -4rem;
     left:9rem;
     right: 8rem;
     justify-content: space-between;
@@ -334,3 +334,45 @@ body {
 
 
 
+
+
+/*      TODAY'S SPECIAL SECTION */
+
+.today-special {
+    height: 60vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+}
+
+.today-title {
+    margin-top: 5.5rem;
+    height: 12%;
+    width: 100%;
+    /* background-color: rgb(20, 20, 19); */
+}
+
+.today-title {
+    color: #F5F5F5;
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    gap: 1rem;
+}
+
+.today-title .line {
+  height: 1px;
+  width: 160px; 
+  /* background: #f5a623; */
+}
+
+.today-special h2 {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.line-left {
+    background: linear-gradient(to left, #f5a623, transparent);
+}
+
+.line-right {
+    background: linear-gradient(to right, #f5a623, transparent);
+}
