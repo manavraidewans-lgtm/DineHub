@@ -379,7 +379,7 @@ body {
 }
 
 .today-knife {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     height: 4%;
     width: 100%;
     /* background-color: rgb(20, 20, 19); */
@@ -702,3 +702,134 @@ body {
     border-radius: 10px;
     border: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+.testi-cards-outer {
+    height: 35vh;   
+    width: 85vw;
+    /* background-color: thistle; */
+    margin-left: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testi-card-1 {
+    height: 90%;
+    width: 30%;
+    background-color:#0d0e0d;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid #828080;
+}
+
+.rev {
+    margin-top: 2.5rem;
+    padding: 0 4rem;
+}
+
+.rev p {
+    color: #e6e0e0;
+    font-size: 1.1rem;
+}
+
+.stars {
+    margin-top: 2rem;
+    padding: 0 4rem;
+}
+
+.stars span i {
+    color: goldenrod;
+    gap: 2rem;
+}
+
+
+.nam {
+    margin-top: 2rem;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 1rem;
+}
+
+.pi {
+    height: 2.5rem;
+    width: 2.5rem;
+    /* background-color: fuchsia; */
+    border-radius: 50%;
+    background-image: url(../Assets/Home/girl\ 1.webp);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.nam-nam .N {
+    font-size: 1.2rem;
+    color: #F5F5F5;
+}
+
+.nam-nam {
+    color: #959393;
+}
+
+.testi-card-2 {
+    height: 90%;
+    width: 30%;
+    background-color:#0d0e0d;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid #828080;
+}
+
+.testi-card-3 {
+    height: 90%;
+    width: 30%;
+    background-color:#0d0e0d;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid #828080;
+}
+
+
+.pi-1 {
+    height: 2.5rem;
+    width: 2.5rem;
+    /* background-color: fuchsia; */
+    border-radius: 50%;
+    background-image: url(../Assets/Home/boy.jpeg);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.pi-2 {
+    height: 2.5rem;
+    width: 2.5rem;
+    /* background-color: fuchsia; */
+    border-radius: 50%;
+    background-image: url(../Assets/Home/girl\ 2.jpeg);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+}
+
