@@ -926,3 +926,65 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+.footer {
+    margin-top: 6rem;
+    height: 30vh;
+    width: 98vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.logo {
+    height: 90%;
+    width: 25%;
+    background-color: burlywood;
+}
+
+.footer-content {
+    height: 90%;
+    width: 45%;
+    background-color: lawngreen;
+}
+
+.footer-icons {
+    height: 90%;
+    width: 25%;
+    background-color: lightcyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+.last-part {
+    height: 4vh;
+    width: 98%;
+    background-color: #1a1a1a;
+    margin-left: 1rem;
+    border: 1px solid #828080;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.last-part p {
+    color: #F5F5F5;
+}
