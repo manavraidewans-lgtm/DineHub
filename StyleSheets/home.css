@@ -846,18 +846,20 @@ body {
     height: 45vh;
     width: 95%;
     margin-left: 2rem;
-    background-color: lawngreen;
+    background-color: #0d0c0d;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid #828080;
 }
 
 .map {
     height: 85%;
-    width: 45%;
+    width: 40%;
     background-color: violet;
     border-radius: 10px;
+    border: 1px solid #828080;
 }
 
 .map iframe {
@@ -865,15 +867,51 @@ body {
     height: 100%;
     border: none;
     border-radius: 10px;
+    border: 1px solid #828080;
 }
 
 
 .find-content {
     height: 85%;
-    width: 20%;
-    background-color: darkorange;
+    width: 25%;
+    /* background-color: darkorange; */
+    border-radius: 10px;
+    display: flex;   
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.locat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+    font-size: 1.25rem;
+    color: #F5F5F5;
+}
+
+.locat span i {
+    color: #FF9F1C;
+}
+
+.find-content button {
+    color: #F5F5F5;
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+    background-color: #FF9F1C;
+    margin-left: 2rem;
+    padding: 0.7rem 1.3rem;
+    border: none;
     border-radius: 10px;
 }
+
+.find-content button i {
+    color: #F5F5F5;
+}
+
 
 .find-photo {
     height: 85%;
@@ -883,4 +921,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
+    border: 1px solid #828080;
 }
+
+
