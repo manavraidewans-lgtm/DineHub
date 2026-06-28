@@ -401,54 +401,128 @@ body {
     height: 70%;
     width: 100%;
     /* background-color: aquamarine; */
-    justify-content: space-between;
+    display: flex;
 }
 
 .content-left {
     height: 100%;
-    width: 60%;
+    width: 75%;
     /* background-color: antiquewhite; */
 }
 
 
 .content-card-outer {
-    height: 80%;
+    height: 100%;
     width: 80%;
-    /* background-color: cadetblue; */
+    background-color: #0d0c0c;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 3px solid #1b1a1a;
+    border-radius: 15px;
 }
 
 .today-content-pic {
     height: 100%;
-    width: 50%;
-    background-color: palegoldenrod;
+    width: 90%;
+    /* background-color: palegoldenrod; */
+}
+
+.today-content-pic-img {
+    height: 90%;
+    width: 90%;
+    /* background-color: #b6b3b3; */
+    background-image: url(../Assets/Home/Grilled\ Salmon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
 }
 
 .today-content-pic-details {
     height: 100%;
     width: 50%;
-    background-color: rgb(207, 155, 57);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
+    gap: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-top: 2rem; */
+}
+
+.today-content-head  {
+    margin-top: 4rem;
+    color: #F5F5F5;
+    font-size: 1.8rem;
+}
+
+.today-content-head p {
+    font-size: 1.1rem;
+    color: #e6e0e0;
+}
+
+.today-rating {
     gap: 1rem;
 }
 
+.today-rating span i {
+    color: goldenrod;
+}
 
+.today-rating span {
+    color: #e6e0e0;
+}
 
+.price p {
+    color: #FF9F1C;
+    font-size: 1.5rem;
+}
 
+.today-content-pic-details button {
+    padding: 0.7rem 1.5rem;
+    background-color: #f5a623;
+    color: #F5F5F5;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+}
 
 
 
 
 .content-right{
     height: 100%;
-    width: 40%;
-    background-color: chartreuse;
+    width: 25%;
+    /* background-color: chartreuse; */
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content-right-head h3 {
+    color: #F5F5F5;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.content-right-list {
+    line-height: 3rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right-list span {
+    color: #e6e0e0;
+    margin-left: 1rem;
+}
+
+.list i {
+    color: black;
+    background-color: #f5a623;
+    padding: 0.1rem;
+    border-radius: 50%;
 }
