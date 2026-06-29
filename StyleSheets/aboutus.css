@@ -492,21 +492,23 @@ body {
 }
 
 
-
 .our-team-lowe-card-outer {
-    height: 25vh;
-    width: 100vw;
-    background-color: darkkhaki;
+    height: 20vh;
+    width: 90vw;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     /* padding: 1rem; */
+    margin-left: 5rem;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .our-team-lowe-card {
     height: 90%;
     width: 20%;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -517,19 +519,36 @@ body {
 .our-team-lower-icon {
     height: 100%;
     width: 45%;
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.our-team-lower-icon i {
+    color: #f5a623;
+    font-size: 4rem;
+}
+
 .our-team-lower-content {
     height: 100%;
     width: 45%;
-    background-color: lime;
+    /* background-color: lime; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.our-team-lower-content h3 {
+    font-size: 2.5rem;
+    color: #F5F5F5;
+}
+
+.our-team-lower-content p {
+    font-size: 1rem;
+    color: #b6b3b3;
 }
 
 
