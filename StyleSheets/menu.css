@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .flex {
@@ -11,12 +12,14 @@
 
 body {
     background-color: black;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 
 .header {
     height: 80vh;
-    width: 100vw;
+    width: 100%;
     /* background-color: blue; */
     background-image: url(../Assets/Menu/hero.jpg);
     background-position: center;
@@ -187,7 +190,7 @@ body {
 .categories {
     margin-top: 4rem;
     height: 20vh;
-    width: 100vw;
+    width: 100%;
     /* background-color: aquamarine; */
 }
 
@@ -280,58 +283,87 @@ body {
 
 
 .items {
-    margin-top: 2rem;
+    /* margin-top: -3rem; */
     height: 100vh;
-    width: 100vw;
-    background-color: aquamarine;
+    width: 100%;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .items-card-outer {
-    height: 90%;
+    height: 80%;
     width: 90%;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .item-card {
     height: 40%;
     width: 40%;
-    background-color: darkgray;
+    background-color: #1a1a1a;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    border: 2px solid #828080;
+    border-radius: 10px;
+}
+.item-card-1 {
+    height: 40%;
+    width: 40%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 2px solid #828080;
+    border-radius: 10px;
 }
 
+
 .item-card-pic-1 {
-    height: 97%;
+    margin-top: 1rem;
+    height: 80%;
     width: 45%;
-    background-color: beige;
+    /* background-color: beige; */
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+    background-image: url(../Assets/Menu/margerita\ pizza.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .item-card-pic-2 {
-    height: 97%;
+    /* height: 97%; */
     width: 45%;
-    background-color: beige;
+    /* background-color: beige; */
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+    margin-top: 1rem;
+    height: 80%;
+    background-image: url(../Assets/Menu/chicken\ burger.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .item-card-pic-3 {
-    height: 97%;
+    /* height: 97%; */
     width: 45%;
     background-color: beige;
     display: flex;
@@ -339,10 +371,18 @@ body {
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+     margin-top: 1rem;
+    height: 80%;
+    background-image: url(../Assets/Menu/cremy\ pasta.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .item-card-pic-4 {
-    height: 97%;
+    /* height: 97%; */
     width: 45%;
     background-color: beige;
     display: flex;
@@ -350,10 +390,18 @@ body {
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+    margin-top: 1rem;
+    height: 80%;
+    background-image: url(../Assets/Menu/cesar\ salad.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .item-card-pic-5 {
-    height: 97%;
+    /* height: 97%; */
     width: 45%;
     background-color: beige;
     display: flex;
@@ -361,10 +409,18 @@ body {
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+    margin-top: 1rem;
+    height: 80%;
+    background-image: url(../Assets/Menu/cold\ coffee.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .item-card-pic-6 {
-    height: 97%;
+    /* height: 97%; */
     width: 45%;
     background-color: beige;
     display: flex;
@@ -372,10 +428,18 @@ body {
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+    margin-top: 1rem;
+    height: 80%;
+    background-image: url(../Assets/Menu/chocolate\ cake.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .item-card-pic-7 {
-    height: 97%;
+    /* height: 97%; */
     width: 45%;
     background-color: beige;
     display: flex;
@@ -383,10 +447,18 @@ body {
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+    margin-top: 1rem;
+    height: 80%;
+    background-image: url(../Assets/Menu/veg\ burger.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .item-card-pic-8 {
-    height: 97%;
+    /* height: 97%; */
     width: 45%;
     background-color: beige;
     display: flex;
@@ -394,12 +466,20 @@ body {
     align-items: start;
     flex-direction: column;
     gap: 0.5rem;
+    margin-top: 1rem;
+    height: 80%;
+    background-image: url(../Assets/Menu/chicekn\ biryani.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #828080;
 }
 
 .item-card-content-head {
     height: 23%;
     width: 100%;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     display: flex;
     justify-content: start;
     align-items: center;
@@ -415,7 +495,7 @@ body {
 .item-card-content-para {
     height: 30%;
     width: 100%;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
     display: flex;
     justify-content: start;
     align-items: center;
@@ -431,7 +511,7 @@ body {
     margin-top: 1.3rem;
     height: 30%;
     width: 100%;
-    background-color: lightpink;
+    /* background-color: lightpink; */
     display: flex;
     gap: 11rem;
     align-items: end;
@@ -456,40 +536,50 @@ body {
 .item-card-content {
     height: 95%;
     width: 55%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 .items-1 {
+    margin-top: -6.5rem;
     height: 100vh;
-    width: 100vw;
-    background-color: aquamarine;
+    width: 100%;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .items-card-outer-1 {
-    margin-top: -4rem;
-    height: 100%;
+    height: 80%;
     width: 90%;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .card-button {
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
     height: 15vh;
-    width: 100vw;
-    background-color: bisque;
+    width: 100%;
+    /* background-color: bisque; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* gap: 2rem; */
 }
 
-
+.card-button button {
+    padding: 1.5rem 19rem;
+    gap: 2rem;
+    font-size: 1.8rem;
+    color: rgb(180, 148, 68);
+    border-radius: 10px;
+    border: 3px solid #f5a623;
+    background: transparent;
+}
 
 
 
@@ -527,7 +617,7 @@ body {
 .footer {
     margin-top: 6rem;
     height: 30vh;
-    width: 98vw;
+    width: 98%;
     /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
