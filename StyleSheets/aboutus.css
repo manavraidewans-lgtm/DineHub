@@ -405,7 +405,7 @@ body {
 .our-team-cards-outer {
     height: 55%;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -415,11 +415,81 @@ body {
 .our-team-card {
     height: 90%;
     width: 20%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
+    border: 2px solid #828080;
+    border-radius: 14px;
 }
 
+.our-team-card-pic {
+    height: 70%;
+    width: 100%;
+    /* background-color: dodgerblue; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url(../Assets/About/chef\ 1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.our-team-card-pic-1 {
+    height: 70%;
+    width: 100%;
+    /* background-color: dodgerblue; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url(../Assets/About/chef\ 3.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.our-team-card-pic-2 {
+    height: 70%;
+    width: 100%;
+    /* background-color: dodgerblue; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url(../Assets/About/chef\ 2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-team-card-pic-3 {
+    height: 70%;
+    width: 100%;
+    /* background-color: dodgerblue; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url(../Assets/About/chef\ 4.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-team-card-content {
+    height: 30%;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    gap: 0.8rem;
+}
+
+.our-team-card-content h3 {
+    color: #f5a623;
+    font-size: 1.7rem;
+}
+
+.our-team-card-content p {
+    color: #b6b3b3;
+    font-size: 1.2rem;
+}
 
 
 
@@ -430,12 +500,30 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    /* padding: 1rem; */
 }
 
 .our-team-lowe-card {
     height: 90%;
     width: 20%;
     background-color: darkcyan;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.our-team-lower-icon {
+    height: 100%;
+    width: 45%;
+    background-color: darkmagenta;
+}
+
+.our-team-lower-content {
+    height: 100%;
+    width: 45%;
+    background-color: lime;
 }
 
 
