@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.css">
 </head>
 <body>
+    <!-- ================= Splash Screen ================= -->
+
+<div id="splash-screen">
+    <div class="splash-content">
+
+        <img src="Assets/Logo/Logo.png" alt="DineHub Logo">
+
+        <h1>DineHub</h1>
+
+        <p>Good Food, Come's With Great Mood</p>
+
+        <div class="loader"></div>
+
+    </div>
+</div>
 
     <div class="outline">
 
@@ -64,4 +79,19 @@
     </div>
 
 </body>
+
+<script>
+    window.addEventListener("load", () => {
+
+    const splash = document.getElementById("splash-screen");
+
+    setTimeout(() => {
+
+        splash.classList.add("hide");
+
+    }, 1200);
+
+});
+</script>
+
 </html>
