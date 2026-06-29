@@ -54,7 +54,7 @@ body {
 .nav-logo img {
     height: 80px;
     width: 95px;
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     position: absolute;
     top: -6px;
     left: 4rem;
@@ -596,4 +596,423 @@ form {
 
 .last-part p {
     color: #F5F5F5;
+}
+
+
+/* ============================================= */
+/* RESPONSIVE STYLES                              */
+/* ============================================= */
+
+/* Hamburger toggle button â€” hidden on desktop, shown on mobile */
+.hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    color: #F5F5F5;
+    font-size: 1.6rem;
+    cursor: pointer;
+    z-index: 30;
+    padding: 0.5rem;
+}
+
+.nav-options {
+    transition: all 0.3s ease;
+}
+
+
+/* ===== Small laptops / large tablets ===== */
+@media (max-width: 1200px) {
+
+    .nav-bar {
+        width: 90vw;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+
+    .nav-logo img {
+        left: 1.5rem;
+    }
+
+    .nav-options ul {
+        gap: 1.6rem;
+    }
+
+    .nav-options ul li a {
+        font-size: 1rem;
+    }
+
+    .head-content {
+        width: 45%;
+        left: 3rem;
+    }
+
+}
+
+
+/* ===== Tablets ===== */
+@media (max-width: 1024px) {
+
+    .head-content {
+        width: 55%;
+        top: 8rem;
+    }
+
+    .head-content-heading h1 {
+        font-size: clamp(2.4rem, 6vw, 3.8rem);
+    }
+
+    .head-content-para {
+        width: 90%;
+    }
+
+    .head-content-para p {
+        font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+    }
+
+    .form-part {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 3rem;
+        padding: 2rem 0;
+    }
+
+    .get-in-touch-part {
+        width: 80%;
+        height: auto;
+    }
+
+    form {
+        width: 80%;
+        height: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    /* form's height is now auto, so the row heights below must switch
+       from percentages (which need a fixed-height parent) to auto + margin */
+    .form-name,
+    .form-email,
+    .form-phone,
+    .form-feedback,
+    .form-button {
+        height: auto;
+        margin-top: 1.2rem;
+    }
+
+    .form-name input,
+    .form-email input,
+    .form-phone input,
+    .form-feedback input {
+        height: 2.8rem;
+        width: 88%;
+        padding: 0 0.6rem;
+    }
+
+    .form-feedback input {
+        height: 4.5rem;
+    }
+
+    .form-button button {
+        padding: 1.1rem 3.5rem;
+    }
+
+    .map-embed {
+        margin-left: 2rem;
+        width: 94%;
+    }
+
+}
+
+
+/* ===== Nav switches to hamburger menu ===== */
+@media (max-width: 900px) {
+
+    .nav-bar {
+        width: 92vw;
+        padding: 0 1.2rem;
+    }
+
+    .nav-logo {
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo img {
+        position: static;
+        height: 56px;
+        width: 67px;
+        margin: 0;
+        top: auto;
+        left: auto;
+    }
+
+    .nav-options {
+        display: none;
+        position: absolute;
+        top: calc(12vh + 0.8rem);
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: rgba(10, 10, 10, 0.95);
+        backdrop-filter: blur(8px);
+        border: 1px solid #F5F5F5;
+        border-radius: 20px;
+        padding: 1.5rem 0;
+    }
+
+    .nav-options.active {
+        display: flex;
+    }
+
+    .nav-options ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 1.3rem;
+    }
+
+    .nav-options ul li {
+        text-align: center;
+    }
+
+    .nav-icons {
+        width: auto;
+        gap: 1rem;
+    }
+
+    .nav-icons .icons {
+        width: auto;
+        gap: 1.2rem;
+    }
+
+    .nav-icons .theme-toggle {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+/* ===== Mobile phones ===== */
+@media (max-width: 768px) {
+
+    .header {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 3rem;
+    }
+
+    .nav-bar {
+        height: auto;
+        min-height: 64px;
+        padding: 0.8rem 1rem;
+    }
+
+    .head-content {
+        position: relative;
+        top: 16vh;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+
+    .head-content-heading {
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .head-content-para {
+        height: auto;
+        width: 100%;
+        margin-top: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .form-part {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 2.5rem;
+        padding: 1.5rem 0;
+    }
+
+    .get-in-touch-part {
+        width: 90%;
+    }
+
+    .get-in-touch-heading h3 {
+        font-size: clamp(2rem, 7vw, 3rem);
+    }
+
+    .phone {
+        padding-left: 0;
+    }
+
+    .phone span i {
+        font-size: 2.6rem;
+    }
+
+    .phone-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .phone-content p {
+        font-size: 1.1rem;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .form-button {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-button button {
+        padding: 1rem 2.5rem;
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .map {
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .map-head h2 {
+        font-size: 2.2rem;
+    }
+
+    .map-embed {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        width: 92%;
+        height: 320px;
+    }
+
+    .footer {
+        height: auto;
+        flex-direction: column;
+        gap: 1.8rem;
+        padding: 2rem 0;
+        width: 94vw;
+        margin-left: 1vw;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-pic {
+        height: 120px;
+        width: 120px;
+    }
+
+    .footer-content {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .quick,
+    .quick-1,
+    .quick-2 {
+        width: 100%;
+        height: auto;
+        gap: 0.8rem;
+    }
+
+    .footer-icons {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .follow {
+        justify-content: center;
+    }
+
+    .footer-i {
+        justify-content: center;
+    }
+
+    .last-part {
+        height: auto;
+        padding: 0.8rem 0;
+        width: 94vw;
+        margin-left: 1vw;
+    }
+
+    .last-part p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+}
+
+
+/* ===== Small phones ===== */
+@media (max-width: 480px) {
+
+    .nav-bar {
+        border-radius: 20px;
+    }
+
+    .nav-logo img {
+        height: 50px;
+        width: 60px;
+    }
+
+    .nav-icons .icons i {
+        font-size: 1rem;
+    }
+
+    .head-content-heading h1 {
+        font-size: 2.2rem;
+    }
+
+    .head-content-para p {
+        font-size: 1rem;
+    }
+
+    .get-in-touch-heading h3 {
+        font-size: 1.8rem;
+    }
+
+    .phone {
+        gap: 1rem;
+        margin-top: 1.4rem;
+    }
+
+    .phone span i {
+        font-size: 2.1rem;
+    }
+
+    .form-button button {
+        width: 100%;
+        padding: 0.9rem 1.5rem;
+    }
+
+    .map-embed {
+        height: 260px;
+    }
+
+    .quick-head p,
+    .follow h3 {
+        font-size: 1.1rem;
+    }
+
 }
