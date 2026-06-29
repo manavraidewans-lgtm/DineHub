@@ -191,11 +191,14 @@ body {
 
 
 
+
+
+
 .form-part {
     margin-top: 4rem;
     height: 90vh;
     width: 100vw;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -204,11 +207,393 @@ body {
 .get-in-touch-part {
     height: 90%;
     width: 25%;
-    background-color: beige;
+    /* background-color: beige; */
 }
+
+.get-in-touch-heading {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-in-touch-heading h3 {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #F5F5F5;
+}
+
+.get-in-touch-content {
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+.phone span i {
+    font-size: 3.5rem;
+    color: #f5a623;
+}
+
+.phone {
+    display: flex; 
+    gap: 1.5rem;
+    margin-top: 1.9rem;
+    padding-left: 1rem;
+}
+
+.phone-content h3 {
+    font-size: 2rem;
+    color: #F5F5F5;
+}
+
+.phone-content p {
+    font-size: 1.5rem;
+    color: #b6b3b3;
+}
+
+
 
 form {
     height: 90%;
-    width: 65%;
-    background-color: lightcoral;
+    width: 45%;
+    /* background-color: lightcoral; */
+    border: 2px solid #b6b3b3;
+}
+
+.form-name {
+    margin-top: 2.5rem;
+    height: 15%;
+    width: 100%;
+    /* background-color: darkturquoise; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.form-name input {
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #b6b3b3;
+}
+
+.form-email {
+    height: 15%;
+    width: 100%;
+    /* background-color: rgb(111, 112, 156);   */
+    display: flex;  
+    justify-content: center;
+    align-items: center;  
+}
+
+.form-email input {
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #b6b3b3;
+}
+
+.form-phone {
+    height: 15%;
+    width: 100%;
+    /* background-color: rgb(125, 209, 166);   */
+    display: flex;  
+    justify-content: center;
+    align-items: center;  
+}
+
+.form-phone input {
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #b6b3b3;
+}
+
+.form-feedback {
+    height: 30%;
+    width: 100%;
+    /* background-color: darkseagreen; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;  
+}
+
+.form-feedback input {
+    height: 60%;
+    width: 90%;
+    justify-content: start;
+    align-items: start;    
+    border-radius: 10px;
+    border: 1px solid #b6b3b3;
+}
+
+.form-button {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-button button {
+    padding: 1.6rem 12.5rem;
+    background-color: #f5a623;
+    color: #F5F5F5;
+    font-size: 1.5rem; 
+    gap: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-button p {
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map {
+    margin-top: 4rem;
+    height: 80vh;
+    width: 100vw;
+    /* background-color: limegreen; */
+}
+
+
+.map-head {
+    height: 10%;
+    width: 100%;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-head h2 {
+    font-size: 3rem;
+    color: #F5F5F5;
+}
+
+.map-embed {
+    margin-top: 2.5rem;
+    margin-left: 5.5rem;
+    height: 90%;
+    width: 90%;
+    /* background-color: coral; */
+    border-radius: 10px;
+    border: 2px solid #828080;
+}
+
+
+.map-embed iframe {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    margin-top: 3rem;
+    height: 30vh;
+    width: 98vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    border: 1px solid #828080;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.logo {
+    height: 90%;
+    width: 25%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-pic {
+    height: 180px;
+    width: 180px;
+    /* background-color: darkmagenta; */
+    background-image: url(../Assets/Home/IMG_6930.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.footer-content {
+    height: 90%;
+    width: 45%;
+    /* background-color: lawngreen; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quick {
+    height: 100%;
+    width: 30%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.quick-head p {
+    color: #F5F5F5;
+    font-size: 1.3rem;
+}
+
+.quick-list ul {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.quick-list ul li {
+    padding: 0.3rem 0;
+}
+
+.quick-list li a {
+    color: #b6b3b3;
+    text-decoration: none;
+    
+}
+
+.quick-1 {
+    height: 100%;
+    width: 30%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.quick-2 {
+    height: 100%;
+    width: 30%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.4rem;
+}
+
+
+
+
+
+
+.footer-icons {
+    height: 90%;
+    width: 25%;
+    /* background-color: lightcyan; */
+}
+
+
+.follow {
+    height: 40%;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: start;
+    margin-top: 1rem;
+    /* align-items: center; */
+}
+
+.follow h3 {
+    color: #F5F5F5;
+    font-size: 1.4rem;
+}
+
+.footer-i {
+    height: 50%;
+    width: 100%;
+    /* background-color: khaki; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 1.2rem;
+}
+
+.footer-i span a {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: #0d0e0d;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.last-part {
+    height: 4vh;
+    width: 98%;
+    background-color: #1a1a1a;
+    margin-left: 1rem;
+    border: 1px solid #828080;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.last-part p {
+    color: #F5F5F5;
 }
