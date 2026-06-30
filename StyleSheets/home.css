@@ -1085,11 +1085,8 @@ body {
     align-items: start;
 }
 .logo{
-    height: 90%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
 .logo-pic {
@@ -1108,7 +1105,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
-    width: 100%;
+  
     height: auto;
 
 }
@@ -1116,8 +1113,7 @@ body {
 .quick,
 .quick-1,
 .quick-2{
-    width:100%;
-    height:auto;
+   
     display:grid;
     gap:15px;
     align-content:start;
@@ -1155,8 +1151,8 @@ body {
      display:grid;
     gap:20px;
     align-content:start;
-    width:100%;
-    height:auto;
+    /* width:100%;
+    height:auto; */
 }
 
 
@@ -1202,10 +1198,10 @@ body {
     display:grid;
     place-items:center;
     height:55px;
-    width:100%;
-    margin:0;
-    border:1px solid #828080;
-    border-top:none;
+    /* width:100%;
+    margin:0; */
+    border-top:1px solid #828080;
+
     background:#1a1a1a;
 }
 

@@ -914,122 +914,137 @@ form {
         margin-top: 1.5rem;
         width: 92%;
         height: 320px;
-    }
+    }}
 
     .footer {
-        height: auto;
-        flex-direction: column;
-        gap: 1.8rem;
-        padding: 2rem 0;
-        width: 94vw;
-        margin-left: 1vw;
-    }
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    padding: 50px;
+    background-color: #1a1a1a;
+    align-items: start;
+}
+.logo{
+    display: grid;
+    place-items: center;
+}
 
-    .logo {
-        width: 100%;
-        height: auto;
-    }
-
-    .logo-pic {
-        height: 120px;
-        width: 120px;
-    }
-
-    .footer-content {
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .quick,
-    .quick-1,
-    .quick-2 {
-        width: 100%;
-        height: auto;
-        gap: 0.8rem;
-    }
-
-    .footer-icons {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .follow {
-        justify-content: center;
-    }
-
-    .footer-i {
-        justify-content: center;
-    }
-
-    .last-part {
-        height: auto;
-        padding: 0.8rem 0;
-        width: 94vw;
-        margin-left: 1vw;
-    }
-
-    .last-part p {
-        font-size: 0.9rem;
-        text-align: center;
-    }
-
+.logo-pic {
+   height: 180px;
+    width: 180px;
+    background-image: url(../Assets/Home/IMG_6930.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-/* ===== Small phones ===== */
-@media (max-width: 480px) {
 
-    .nav-bar {
-        border-radius: 20px;
-    }
 
-    .nav-logo img {
-        height: 50px;
-        width: 60px;
-    }
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  
+    height: auto;
 
-    .nav-icons .icons i {
-        font-size: 1rem;
-    }
+}
 
-    .head-content-heading h1 {
-        font-size: 2.2rem;
-    }
+.quick,
+.quick-1,
+.quick-2{
+   
+    display:grid;
+    gap:15px;
+    align-content:start;
+}
 
-    .head-content-para p {
-        font-size: 1rem;
-    }
+.quick-head p {
+    color: #F5F5F5;
+    font-size: 1.3rem;
+}
 
-    .get-in-touch-heading h3 {
-        font-size: 1.8rem;
-    }
+.quick-list ul {
+    list-style: none;
+    font-size: 1.1rem;
+}
 
-    .phone {
-        gap: 1rem;
-        margin-top: 1.4rem;
-    }
+.quick-list ul li {
+    padding: 0.3rem 0;
+}
 
-    .phone span i {
-        font-size: 2.1rem;
-    }
+.quick-list li a {
+    color: #b6b3b3;
+    text-decoration: none;
+    
+}
 
-    .form-button button {
-        width: 100%;
-        padding: 0.9rem 1.5rem;
-    }
 
-    .map-embed {
-        height: 260px;
-    }
 
-    .quick-head p,
-    .follow h3 {
-        font-size: 1.1rem;
-    }
 
+
+
+
+
+
+.footer-icons {
+     display:grid;
+    gap:20px;
+    align-content:start;
+    /* width:100%;
+    height:auto; */
+}
+
+
+.follow {
+    height:auto;
+    margin:0;
+}
+
+.follow h3 {
+    color: #F5F5F5;
+    font-size: 1.4rem;
+}
+
+.footer-i {
+     height:auto;
+}
+.footer-i span{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+
+.footer-i span a {
+    margin:0;
+    padding:10px;
+    background:#F5F5F5;
+    border-radius:50%;
+    color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.last-part {
+    display:grid;
+    place-items:center;
+    height:55px;
+    /* width:100%;
+    margin:0; */
+    border-top:1px solid #828080;
+
+    background:#1a1a1a;
+}
+
+.last-part p {
+    color: #F5F5F5;
 }
