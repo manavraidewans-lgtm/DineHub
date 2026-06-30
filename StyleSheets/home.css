@@ -942,20 +942,18 @@ body {
     align-items: start;
 }
 .logo{
-    background-color: darkmagenta;
-    background-image: url(../Assets/Home/IMG_6930.PNG);
-    background-posi.logo {
     height: 90%;
-    width: 25%;
-    /* background-color: burlywood; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo-pic {
-    height: 180px;
-    width: 180ption: center;
+   height: 180px;
+    width: 180px;
+    background-image: url(../Assets/Home/IMG_6930.PNG);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -972,7 +970,9 @@ body {
 
 }
 
-.quick {
+.quick,
+.quick-1,
+.quick-2{
     width:100%;
     height:auto;
     display:grid;
@@ -1000,21 +1000,8 @@ body {
     
 }
 
-.quick-1 {
-    width:100%;
-    height:auto;
-    display:grid;
-    gap:15px;
-    align-content:start;
-}
 
-.quick-2 {
-     width:100%;
-    height:auto;
-    display:grid;
-    gap:15px;
-    align-content:start;
-}
+
 
 
 
