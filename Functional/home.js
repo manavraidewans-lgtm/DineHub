@@ -28,3 +28,55 @@ button.addEventListener("click", () => {
 
 
 
+
+
+
+document.querySelectorAll(".like-btn").forEach(btn => {
+
+    btn.addEventListener("click", function () {
+
+        // toggle icon
+        this.classList.toggle("active");
+
+        const icon = this.querySelector("i");
+        icon.classList.toggle("fa-regular");
+        icon.classList.toggle("fa-solid");
+
+        // heart pop animation
+        for (let i = 0; i < 6; i++) {
+            const heart = document.createElement("span");
+            heart.classList.add("floating-heart");
+            heart.innerHTML = "❤️";
+
+            heart.style.left = (Math.random() * 40) + "px";
+            heart.style.top = "0px";
+
+            this.appendChild(heart);
+
+            setTimeout(() => heart.remove(), 700);
+        }
+    });
+
+});
+
+
+
+document.getElementById("get-direction").addEventListener("click", () => {
+    window.open(
+        "https://www.google.com/maps/place/Hyatt+Centric+Dehradun",
+        "_blank"
+    );
+});
+
+
+
+
+
+
+
+
+
+
+
+
+

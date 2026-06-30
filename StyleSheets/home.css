@@ -1212,3 +1212,260 @@ body {
 .last-part p {
     color: #F5F5F5;
 }
+
+
+
+
+
+
+
+
+
+
+
+.like-btn{
+    font-size: 1.8rem;
+    background: transparent;
+    border: none;
+    color: #F5F5F5;
+    cursor: pointer;
+    position: relative;
+}
+
+.like-btn:active{
+    transform: scale(0.9);
+}
+
+.like-btn.active i{
+    color: red;
+}
+
+/* floating hearts */
+.floating-heart{
+    position: absolute;
+    font-size: 18px;
+    pointer-events: none;
+    animation: floatUp 0.7s ease-out forwards;
+}
+
+@keyframes floatUp{
+    0%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-90px) scale(1.6);
+    }
+}
+
+
+
+
+
+/* ================= BUTTON ANIMATION ================= */
+
+.animated-btn{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .35s ease;
+}
+
+/* Strong hover */
+.animated-btn:hover{
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(255,159,28,.45);
+}
+
+/* Click */
+.animated-btn:active{
+    transform: translateY(2px) scale(.96);
+}
+
+/* Shine effect */
+.animated-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,.7),
+        transparent
+    );
+    transform: skewX(-25deg);
+    transition: .7s;
+}
+
+.animated-btn:hover::before{
+    left: 170%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================
+   LARGE TABLETS (1200px)
+========================== */
+@media (max-width:1200px){
+
+    .nav-bar{
+        width:95%;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    .head-content{
+        width:60%;
+        left:3rem;
+    }
+
+    .bottom{
+        width:95%;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    .popular-dish-cards-outer{
+        width:95%;
+        margin:auto;
+        gap:1rem;
+    }
+
+    .dish-card{
+        width:23%;
+    }
+
+    .testi-cards-outer{
+        width:95%;
+        margin:auto;
+    }
+
+}
+
+
+
+
+/* ==========================
+   TABLETS (992px)
+========================== */
+@media (max-width:992px){
+
+    .header{
+        height:auto;
+        padding-bottom:120px;
+    }
+
+    .nav-options{
+        display:none;
+    }
+
+    .nav-icons{
+        width:auto;
+    }
+
+    .head-content{
+        width:85%;
+        left:50%;
+        transform:translateX(-50%);
+        top:9rem;
+    }
+
+    .head-content-heading h1{
+        font-size:3rem;
+    }
+
+    .bottom{
+        position:relative;
+        margin-top:80vh;
+        left:auto;
+        transform:none;
+        width:95%;
+        height:auto;
+        flex-wrap:wrap;
+        padding:20px;
+        gap:20px;
+    }
+
+    .ing,
+    .exp,
+    .del,
+    .off{
+        width:45%;
+    }
+
+    .todays-content{
+        flex-direction:column;
+        gap:30px;
+    }
+
+    .content-left,
+    .content-right{
+        width:100%;
+    }
+
+    .content-card-outer{
+        width:100%;
+    }
+
+    .popular-dish-cards-outer{
+        flex-wrap:wrap;
+        height:auto;
+    }
+
+    .dish-card{
+        width:45%;
+    }
+
+    .testi-cards-outer{
+        flex-wrap:wrap;
+        height:auto;
+        gap:25px;
+    }
+
+    .testi-card-1{
+        width:45%;
+    }
+
+    .find-us-outer{
+        flex-direction:column;
+        height:auto;
+        padding:20px;
+        gap:20px;
+    }
+
+    .map,
+    .find-content,
+    .find-photo{
+        width:100%;
+    }
+
+    .footer{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .footer-content{
+        grid-template-columns:1fr;
+    }
+
+    .footer-i span{
+        justify-content:center;
+    }
+
+}
+
+
+
+

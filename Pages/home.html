@@ -10,10 +10,6 @@
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-
-    <link
-        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
-        rel="stylesheet">
 </head>
 
 <body>
@@ -58,6 +54,11 @@
 
         </div>
 
+
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
         <div class="head-content">
 
             <div class="head-content-heading flex">
@@ -76,12 +77,12 @@
 
             <div class="head-content-button">
 
-                <button class="explore" id="explore-menu">
+                <button class="explore animated-btn" id="explore-menu">
                     <p>Explore Menu</p>
                     <i class="fa-solid fa-caret-down"></i>
                 </button>
 
-                <button class="offer" id="view-offers">
+                <button class="offer animated-btn" id="view-offers">
                     <p>View Offers</p>
                     <i class="fa-solid fa-percent"></i>
                 </button>
@@ -270,7 +271,9 @@
                             <p class="price">₹900</p>
                         </div>
                     </div>
-                    <button id="popular-dish"><p><i class="fa-regular fa-heart" ></i></p></button>
+                    <button class="like-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
                 </div>
             </div>
 
@@ -283,7 +286,9 @@
                             <p class="price">₹1,700</p>
                         </div>
                     </div>
-                    <button><p><i class="fa-regular fa-heart" ></i></p></button>
+                    <button class="like-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
                 </div>
             </div>
 
@@ -296,7 +301,9 @@
                             <p class="price">₹2,000</p>
                         </div>
                     </div>
-                    <button><p><i class="fa-regular fa-heart" ></i></p></button>
+                     <button class="like-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
                 </div>
             </div>
 
@@ -309,7 +316,9 @@
                             <p class="price">₹700</p>
                         </div>
                     </div>
-                    <button><p><i class="fa-regular fa-heart" ></i></p></button>
+                     <button class="like-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
                 </div>
             </div>
             
@@ -324,7 +333,7 @@
                 <h3>Get 20% <span>OFF</span> 'On your First Order!</h3>
                 <p>Use code: <span>DINE20</span> </p>
 
-            <button>
+            <button class="animated-btn">
                 <p>Order Now <i class="fa-solid fa-arrow-right"></i></p>
             </button>
        </div> 
@@ -466,7 +475,8 @@
                         <span>Mon-Sun: 9:00AM - 11:00PM</span>
                     </div>
                     
-                    <button><p>Get Direction <i class="fa-solid fa-location-arrow"></i></p>
+                    <button id="get-direction" class="animated-btn">
+                        <p>Get Direction <i class="fa-solid fa-location-arrow"></i></p>
                     </button>
                 </div>
                 <div class="find-photo"></div>
