@@ -79,8 +79,16 @@ body {
 
 .nav-options {
     height: 100%;
-    width: 40%;
+    width: 45%;
     /* background-color: lightslategray; */
+}
+.nav-options .active {
+    /* background-color: #545353; */
+    padding: 0.9rem 1.5rem;
+    background: transparent;
+    border: 2.5px solid #7c7c7c;
+    border-radius: 90px;
+    color: #f5a623;
 }
 
 .nav-options ul {
@@ -95,6 +103,10 @@ body {
     text-decoration: none;
     color: #F5F5F5;
     font-size: 1.1rem;
+}
+
+.nav-options ul li a:hover {
+    color: #f5a623;
 }
 
 

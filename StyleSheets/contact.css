@@ -63,7 +63,7 @@ body {
 
 .nav-options {
     height: 100%;
-    width: 40%;
+    width: 45%;
     /* background-color: lightslategray; */
 }
 
@@ -81,6 +81,23 @@ body {
     font-size: 1.1rem;
 }
 
+.nav-options .active {
+    /* background-color: #545353; */
+    padding: 0.9rem 1.5rem;
+    background: transparent;
+    border: 2.5px solid #7c7c7c;
+    border-radius: 90px;
+    color: #f5a623;
+}
+
+.nav-options ul li a:hover {
+    /* background-color: #0e0e0e; */
+    /* padding: 0.9rem 1.7rem; */
+    /* background: transparent; */
+    /* border: 1px solid #1a1a1a; */
+    /* border-radius: 90px; */
+    color: #f5a623;
+}
 
 .nav-icons {
     height: 100%;

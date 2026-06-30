@@ -21,8 +21,8 @@ body {
     height: 80vh;
     width: 100%;
     /* background-color: blue; */
-    background-image: url(../Assets/Menu/hero.jpg);
-    background-position: center;
+    background-image: url(../Assets/Offers/hero\ 1.jpg);
+    /* background-position: right; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,7 @@ body {
 .nav-bar {
     position: absolute;
     height: 12vh;
-    width: 80vw;
+    width: 85vw;
     top: 0.5rem;
     left:8rem;
     right: 8rem;
@@ -66,8 +66,21 @@ body {
 
 .nav-options {
     height: 100%;
-    width: 40%;
+    width: 45%;
     /* background-color: lightslategray; */
+}
+
+.nav-options .active {
+    /* background-color: #545353; */
+    padding: 0.9rem 1.5rem;
+    background: transparent;
+    border: 2.5px solid #7c7c7c;
+    border-radius: 90px;
+    color: #f5a623;
+}
+
+.nav-options ul li a:hover {
+    color: #f5a623;
 }
 
 .nav-options ul {
@@ -127,9 +140,9 @@ body {
     width: 28%;
     /* background-color: blueviolet; */
     top: 14rem;
-    left: 8rem;
+    left: 2rem;
     padding: 1rem;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(6px);
     border: none;
 }
 
@@ -158,6 +171,7 @@ body {
     height: 28%;
     width: 90%;
     /* background-color: cadetblue; */
+    margin-top: 2rem;
 }
 
 .head-content-para p {
