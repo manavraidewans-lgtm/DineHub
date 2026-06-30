@@ -276,15 +276,28 @@ body {
     border: 1px solid #FF9F1C;
 }
 
+
+
+
 .offer {
     background: transparent;
+    display: flex;
+    gap: 0.4rem;
 }
 
 .explore {
     background-color: #FF9F1C;
+    display: flex;
+    gap: 0.4rem;
 }
 
+#explore-menu:active{
+   transform: scale(.95);
+}
 
+#view-offers:active{
+   transform: scale(.95);
+}
 
 
 
@@ -523,6 +536,33 @@ body {
     font-size: 1rem;
     border: none;
     border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.today-content-pic-details button:active{
+    transform:scale(0.95);
+}
+
+
+.flying-emoji{
+    position: absolute;
+    font-size: 24px;
+    pointer-events: none;
+    animation: flyUp 3s ease-out forwards;
+
+}
+
+@keyframes flyUp{
+    0%{
+        opacity:1;
+        transform:translate(0,0) scale(1);
+    }
+    100%{
+        opacity:0;
+        transform:translate(var(--x),-120px) rotate(25deg) scale(1.6);
+    }
+
 }
 
 
@@ -638,7 +678,73 @@ body {
     background: transparent;
     border: none;
     color: #F5F5F5;
+    cursor: pointer;
+    position: relative;
 }
+
+.dish-card-content button:active{
+    transform:scale(0.95);
+}
+
+.dish-card-content button:hover {
+    /* transform:scale(0.95); */
+    color: #FF9F1C;
+}
+
+.flying-like{
+    position: absolute;
+    font-size: 24px;
+    pointer-events: none;
+    animation: flylike 3s ease-out forwards;
+
+}
+
+@keyframes flylike{
+    0%{
+        opacity:1;
+        transform:translate(0,0) scale(1);
+    }
+    100%{
+        opacity:0;
+        transform:translate(var(--x),-120px) rotate(25deg) scale(1.6);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .dish-card-pic-2 {
