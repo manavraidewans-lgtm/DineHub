@@ -6,7 +6,6 @@
     <title>DineHub | Where every flavor tells a story</title>
     <link rel="icon" href="Assets/Logo/Logo.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Responsive/index-responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.css">
 </head>
 <body>
@@ -33,11 +32,11 @@
             <form action="">
 
                 <div class="email">
-                    <input type="email" id="email" name="email" placeholder="E-mail Or Phone">
+                    <input type="email" id="username" name="username" placeholder="E-mail Or Phone">
                 </div>
 
                 <div class="pass">
-                    <input type="password" id="pass" name="password" placeholder="Password">
+                    <input type="password" id="password" name="password" placeholder="Password">
                 </div>
 
                 <div class="two-option">
@@ -54,10 +53,11 @@
 
                 </div>
 
-
-                <div class="but">
-                    <button><a href="Pages/home.html">Login</a></button>
-                </div>
+                    <button id="loginBtn" type="button">
+                        <span class="btn-text">Login</span>
+                        <span class="spinner"></span>
+                    </button>
+                
 
 
                 <div class="sign">
@@ -74,18 +74,6 @@
 
 </body>
 
-<script>
-    window.addEventListener("load", () => {
-
-    const splash = document.getElementById("splash-screen");
-
-    setTimeout(() => {
-
-        splash.classList.add("hide");
-
-    }, 1200);
-
-});
-</script>
+<script src="index.js"></script>
 
 </html>
